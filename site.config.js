@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "지혜",
+    name: "wisdom",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
     bio: "문제를 정의하고, 문제를 해결하는",
-    email: "wisdom08v@gmail.com",
+    email: "wisdom08@kakao.com",
     linkedin: "",
-    github: "wisdom08",
+    github: "",
     instagram: "",
   },
   projects: [
@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "지혜 기술 블로그",
+    title: "wisdom-devlog",
     description: "slowly but surely",
     theme: "auto", // ['light', 'dark', 'auto']
   },
@@ -29,7 +29,7 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: ["wisdom08", "wisdom", "wisdom-devlog"],
   },
 
   // notion configuration (required)
